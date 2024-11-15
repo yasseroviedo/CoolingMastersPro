@@ -554,6 +554,85 @@
 <!--========================================================
                           FOOTER
 =========================================================-->
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="grid_3 wow fadeInLeft" data-wow-delay="0.5s">
+                <h5>Cooling Masters</h5>
+                <div>
+                    <p style="color: #ffffff;">
+                        Our service is available 24 hours, seven days a week, and we do not charge overtime rates during those hours. We also offer Emergency Air Conditioning Service to our customers, which is provided in less than 60 minutes.
+                    </p>
+                </div>
+            </div>
+            <div class="grid_3 wow fadeInLeft" data-wow-delay="0.4s">
+                <h5>our services</h5>
+                <ul class="link-list-footer">
+                    <li>
+                        <a href="../hvac/emergency-hvac-services.aspx">Emergency HVAC</a>
+                    </li>
+                    <li>
+                        <a href="../hvac/air-conditioning-installation.aspx">Air Conditioning Installation</a>
+                    </li>
+                    <li>
+                        <a href="../hvac/air-conditioning-repair.aspx">Air Conditioning Repair</a>
+                    </li>
+                    <li>
+                        <a href="../hvac/air-conditioner-replacement.aspx">Air Conditioner Replacement</a>
+                    </li>
+                    <li>
+                        <a href="../hvac/air-ducts-cleaning.aspx">Air Duct Cleaning</a>
+                    </li>
+                    <li>
+                        <a href="../hvac/commercial-hvac-services.aspx">Commercial HVAC Service</a>
+                    </li>
+                    <li>
+                        <a href="../hvac/air-conditioning-maintenance.aspx">Air Conditioning Maintenance</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid_3 wow fadeInLeft" data-wow-delay="0.3s">
+                <h5>quick links</h5>
+                <ul class="link-list-footer">
+                    <li>
+                        <a href="../Default.aspx">home</a>
+                    </li>
+                    <li>
+                        <a href="../AboutUs.aspx">about</a>
+                    </li>
+                    <li>
+                        <a href="../hvac/services.aspx">services</a>
+                    </li>
+                    <li>
+                        <a href="../">areas we service</a>
+                    </li>
+                    <li>
+                        <a href="../ContactUs.aspx">contact us</a>
+                    </li>
+                    <li>
+                        <a href="../">faqs</a>
+                    </li>
+                    <li>
+                       <a href="#contact">blog</a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="grid_3 wow fadeInLeft" data-wow-delay="0.3s">
+                <h5>quick contact</h5>
+                <img src="../assets/images/icons/phone.png" alt="phone" style="width: 26px;"/><p style="color: #ffffff;">Phone: 786 7635621</p>
+                <img src="../assets/images/icons/mail.png" alt="email" style="width: 26px;"/><p style="color: #ffffff;">Email: coolingmasters247@gmail.com</p>
+                <img src="../assets/images/icons/location.png" alt="location" style="width: 26px;"/><p style="color: #ffffff;">Location: Florida</p>
+            </div>
+        </div>
+
+    </div>
+    <hr/>
+
+    <div class="container wow fadeInUp" data-wow-delay="0.2s">
+       <p>Cooling <span>Masters</span> | all rights reserved</p>
+    </div>
+
+</footer>
 
 </div>
 <script src="js/script.js"></script>

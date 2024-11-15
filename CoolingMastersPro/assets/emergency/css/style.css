@@ -43,12 +43,13 @@
                     Main layout styles
 =========================================================*/
 body {
-  font-family: 'Raleway', sans-serif;
-  font-size: 15px;
-  line-height: 29px;
-  font-weight: 400;
-  background: #1c1c1c;
-  color: #777;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    font-weight: 400;
+    /*background: #1c1c1c;*/
+    background: #035397;
+    color: #777;
 }
 a {
   font: inherit;
@@ -809,12 +810,22 @@ dt {
     padding-left: 25px;
     color: #035397;
 }
+
+.link-list-footer li {
+    position: relative;
+    color: #ffffff;
+}
+
+.link-list-footer li a:hover {
+    text-decoration: underline;
+}
+
 .link-list li:before {
-  content: '-';
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #777;
+    content: '-';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #777;
 }
 .link-list li a:hover {
   color: #ffffff;
