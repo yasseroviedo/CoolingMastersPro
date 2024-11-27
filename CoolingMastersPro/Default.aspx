@@ -86,7 +86,6 @@
                 <p>Our dedication to service your entire HVAC system can never cease. That is the reason we offer at least once service every day of the week.</p>
                 <div style="flex">    
                     <div><a href="#quickcontact" class="btn">make appointment</a></div>
-                    <div><a href="#quickcontact" class="btn">786 000 000</a></div>
                 </div>
               </div>
             </div>
