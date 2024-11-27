@@ -112,15 +112,23 @@
     <Content Include="assets\emergency\css\owl.carousel.css" />
     <Content Include="assets\emergency\css\style.css" />
     <Content Include="assets\emergency\css\touchTouch.css" />
+    <Content Include="assets\emergency\images\ac-rails.png" />
+    <Content Include="assets\emergency\images\ac-replacement.png" />
     <Content Include="assets\emergency\images\AjaxLoader.gif" />
     <Content Include="assets\emergency\images\arrows.png" />
+    <Content Include="assets\emergency\images\bills.png" />
     <Content Include="assets\emergency\images\blank.gif" />
     <Content Include="assets\emergency\images\camera-loader.gif" />
     <Content Include="assets\emergency\images\camera_skins.png" />
+    <Content Include="assets\emergency\images\capacitor.png" />
     <Content Include="assets\emergency\images\clock.png" />
     <Content Include="assets\emergency\images\coins.png" />
+    <Content Include="assets\emergency\images\commercial-1.png" />
+    <Content Include="assets\emergency\images\commercial-3.png" />
+    <Content Include="assets\emergency\images\emergency-ac.png" />
     <Content Include="assets\emergency\images\favicon.ico" />
     <Content Include="assets\emergency\images\form-loader.gif" />
+    <Content Include="assets\emergency\images\gauge-meter-2.png" />
     <Content Include="assets\emergency\images\gauge.png" />
     <Content Include="assets\emergency\images\grabbing.png" />
     <Content Include="assets\emergency\images\logo.png" />
@@ -160,7 +168,9 @@
     <Content Include="assets\emergency\images\page4-img4.jpg" />
     <Content Include="assets\emergency\images\page4-img5.jpg" />
     <Content Include="assets\emergency\images\preloader.gif" />
+    <Content Include="assets\emergency\images\run-capacitor.png" />
     <Content Include="assets\emergency\images\select.png" />
+    <Content Include="assets\emergency\images\thermostat.png" />
     <Content Include="assets\emergency\images\vip.png" />
     <Content Include="assets\emergency\js\camera.js" />
     <Content Include="assets\emergency\js\core.min.js" />
@@ -191,6 +201,7 @@
     <Content Include="assets\images\AboutUs\AboutUs2.png" />
     <Content Include="assets\images\AboutUs\AboutUs3.png" />
     <Content Include="assets\images\About\About-us.png" />
+    <Content Include="assets\images\Areas\commercial-4.png" />
     <Content Include="assets\images\Blogs\Blog-1.png" />
     <Content Include="assets\images\Blogs\Blog-2.png" />
     <Content Include="assets\images\Blogs\Blog-3.png" />
@@ -433,7 +444,7 @@
     <Content Include="emergency-ac-repair-southwest-ranches-fl\Default.aspx" />
     <Content Include="emergency-ac-repair-spring-hill-fl\Default.aspx" />
     <Content Include="emergency-ac-repair-stacey-street-fl\Default.aspx" />
-    <Content Include="emergency-ac-repair-start-island-fl\Default.aspx" />
+    <Content Include="emergency-ac-repair-star-island-fl\Default.aspx" />
     <Content Include="emergency-ac-repair-sun-center-fl\Default.aspx" />
     <Content Include="emergency-ac-repair-sunny-isles-beach-fl\Default.aspx" />
     <Content Include="emergency-ac-repair-sunrise-fl\Default.aspx" />
@@ -470,6 +481,7 @@
     <Content Include="hvac\commercial-hvac-services.aspx" />
     <Content Include="hvac\emergency-hvac-services.aspx" />
     <Content Include="hvac\miami\Default.aspx" />
+    <Content Include="hvac\service-areas\Default.aspx" />
     <Content Include="hvac\services.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -1514,11 +1526,11 @@
     <Compile Include="emergency-ac-repair-stacey-street-fl\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="emergency-ac-repair-start-island-fl\Default.aspx.cs">
+    <Compile Include="emergency-ac-repair-star-island-fl\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="emergency-ac-repair-start-island-fl\Default.aspx.designer.cs">
+    <Compile Include="emergency-ac-repair-star-island-fl\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="emergency-ac-repair-sun-center-fl\Default.aspx.cs">
@@ -1760,6 +1772,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="hvac\miami\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hvac\service-areas\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hvac\service-areas\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="hvac\services.aspx.cs">

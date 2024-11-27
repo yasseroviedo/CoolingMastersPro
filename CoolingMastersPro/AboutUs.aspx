@@ -44,20 +44,21 @@
     <div id="menu-btn" class="fas fa-bars"></div>
 
     <!-- Logo -->
-    <a class="logo" href="#home">
+    <a class="logo" href="/">
       <h2>Cooling<span><br>Masters</span></h2>
-      <!-- <img src="assets/images/logo.png" alt="logo" /> -->
+      <img src="assets/images/logo247.jpeg" alt="ac emergency in miami" style="height: 78px;padding-left: 24px;"/>
     </a>
     
     <nav class="navbar">
-      <asp:Button class="btn btn-nav" ID="Home" runat="server" Text="Home" OnClick="Home_Click"/>
-      <asp:Button class="btn btn-nav" ID="About" runat="server" Text="About" OnClick="About_Click"/>
-      <asp:Button class="btn btn-nav" ID="Services" runat="server" Text="Services" OnClick="Services_Click"/>
-      <asp:Button class="btn btn-nav" ID="AreasWeService" runat="server" Text="Areas We Service"/>  
-      <asp:Button class="btn btn-nav" ID="FAQ" runat="server" Text="FAQ" OnClick="FAQ_Click"/>
-      <asp:Button class="btn btn-nav" ID="ContactUs" runat="server" Text="Contact Us" OnClick="ContactUs_Click"/>
-      <asp:Button class="btn btn-nav" ID="Blog" runat="server" Text="Blog" OnClick="Blog_Click"/>
-    </nav>
+      
+      <a class="link-menu" href="/">Home</a>
+      <a class="link-menu" href="AboutUs.aspx">About</a>
+      <a class="link-menu" href="hvac/services.aspx">Services</a>
+      <a class="link-menu" href="hvac/service-areas/">Areas We Service</a>
+      <a class="link-menu" href="ContactUs.aspx">Contact Us</a>
+      <a class="link-menu" href="/">FAQs</a>
+      <a class="link-menu" href="/">Blog</a>
+    </nav> 
 
     <a href="#quickcontact" class="btn appointment-btn">make appointment</a>
 

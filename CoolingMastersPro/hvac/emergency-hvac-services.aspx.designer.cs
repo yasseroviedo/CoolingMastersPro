@@ -24,69 +24,6 @@ namespace CoolingMastersPro.miami.services
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// EmergencyHVAC control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button EmergencyHVAC;
-
-        /// <summary>
-        /// AirConditioningInstallation control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AirConditioningInstallation;
-
-        /// <summary>
-        /// AirConditioningRepair control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AirConditioningRepair;
-
-        /// <summary>
-        /// AirConditionerReplacement control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AirConditionerReplacement;
-
-        /// <summary>
-        /// AirDuctCleaning control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AirDuctCleaning;
-
-        /// <summary>
-        /// CommercialHVACService control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CommercialHVACService;
-
-        /// <summary>
-        /// HVACMaintenanceTuneUp control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button HVACMaintenanceTuneUp;
-
-        /// <summary>
         /// hvacServices1 control.
         /// </summary>
         /// <remarks>

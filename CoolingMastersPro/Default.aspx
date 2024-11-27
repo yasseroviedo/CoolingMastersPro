@@ -23,9 +23,7 @@
   <!-- Custom Stylesheets -->
   <link rel="stylesheet" href="assets/css/main.css" />
   <link rel="stylesheet" href="assets/css/responsive.css" />
-
-
-</head>
+ </head>
 <body>
    <form id="form1" runat="server">
         
@@ -43,20 +41,21 @@
     <div id="menu-btn" class="fas fa-bars"></div>
 
     <!-- Logo -->
-    <a class="logo" href="#home">
+    <a class="logo" href="/">
       <h2>Cooling<span><br>Masters</span></h2>
       <img src="assets/images/logo247.jpeg" alt="ac emergency in miami" style="height: 78px;padding-left: 24px;"/>
     </a>
     
     <nav class="navbar">
-      <asp:Button class="btn btn-nav" ID="Home" runat="server" Text="Home" OnClick="Home_Click"/>
-      <asp:Button class="btn btn-nav" ID="About" runat="server" Text="About" OnClick="About_Click"/>
-      <asp:Button class="btn btn-nav" ID="Services" runat="server" Text="Services" OnClick="Services_Click"/>
-      <asp:Button class="btn btn-nav" ID="AreasWeService" runat="server" Text="Areas We Service"/>
-      <asp:Button class="btn btn-nav" ID="ContactUs" runat="server" Text="ContactUs" OnClick="ContactUs_Click"/>  
-      <asp:Button class="btn btn-nav" ID="FAQ" runat="server" Text="FAQ" OnClick="FAQ_Click"/>
-      <asp:Button class="btn btn-nav" ID="Blog" runat="server" Text="Blog" OnClick="Blog_Click"/>
-    </nav>
+      
+      <a class="link-menu" href="/">Home</a>
+      <a class="link-menu" href="AboutUs.aspx">About</a>
+      <a class="link-menu" href="hvac/services.aspx">Services</a>
+      <a class="link-menu" href="hvac/service-areas/">Areas We Service</a>
+      <a class="link-menu" href="ContactUs.aspx">Contact Us</a>
+      <a class="link-menu" href="/">FAQs</a>
+      <a class="link-menu" href="/">Blog</a>
+    </nav> 
 
     <a href="#quickcontact" class="btn appointment-btn">make appointment</a>
 
@@ -476,33 +475,46 @@
         <p>Our service is available 24 hours, seven days a week,
            and we do not charge overtime rates during those hours. 
            We also offer Emergency Air Conditioning Service to our customers, which is provided in less than 60 minutes.</p>
+           <p>
+            Our air conditioning installations are meticulously designed and engineered to ensure optimal performance. 
+           </p>
+          <p> Cooling Masters Air Conditioning successfully installs approximately six hundred (600) air conditioning units annually.</p>
+          <p> Our achievements stem from our capability to design and engineer a greater number of high-efficiency systems than any other company in Florida.</p>
+       
       </div>
 
       <div class="footer-item">
         <h2>our services</h2>
         <div class="links">
-          <a href="#">Emergency HVAC</a>
-          <a href="#">Air Conditioning Installation</a>
-          <a href="#">Air Conditioning Repair</a>
-          <a href="#">Air Conditioner Replacement</a>
-          <a href="#">Air Duct Cleaning</a>
-          <a href="#">Commercial HVAC Service</a>
-          <a href="#">Air Conditioning Maintenance</a>
+          <a href="hvac/emergency-hvac-services.aspx">Emergency HVAC</a>
+          <a href="hvac/air-conditioning-installation.aspx">Air Conditioning Installation</a>
+          <a href="hvac/air-conditioning-repair.aspx">Air Conditioning Repair</a>
+          <a href="hvac/air-conditioner-replacement.aspx">Air Conditioner Replacement</a>
+          <a href="hvac/air-ducts-cleaning.aspx">Air Duct Cleaning</a>
+          <a href="hvac/commercial-hvac-services.aspx">Commercial HVAC Service</a>
+          <a href="hvac/air-conditioning-maintenance.aspx">Air Conditioning Maintenance</a>
         </div>
       </div>
 
       <div class="footer-item">
         <h2>quick links</h2>
         <div class="links">
-          <a href="../Default.aspx">home</a>
-          <a href="../AboutUs.aspx">about</a>
-          <a href="services.aspx">services</a>
-          <a href="#gallery">areas we service</a>
-          <a href="../ContactUs.aspx">contact us</a>
-          <a href="#testimonials">faqs</a>
-          <a href="#contact">blog</a> 
+          <a href="/">home</a>
+          <a href="AboutUs.aspx">about</a>
+          <a href="hvac/services.aspx">services</a>
+          <a href="hvac/service-areas">areas we service</a>
+          <a href="ContactUs.aspx">contact us</a>
+          <a href="/">faqs</a>
+          <a href="/">blog</a> 
         </div>
       </div>
+
+      <div class="footer-item">
+        <h2>quick contact</h2>
+        <img src="assets/images/icons/phone.png" alt="phone" style="width: 26px;"/><p>Phone: 786 7635621</p>
+        <img src="assets/images/icons/mail.png" alt="email" style="width: 26px;"/><p>Email: coolingmasters247@gmail.com</p>
+        <img src="assets/images/icons/location.png" alt="location" style="width: 26px;"/><p>Location: Florida</p>
+      </div>  
     </div>
 
     <div class="content">

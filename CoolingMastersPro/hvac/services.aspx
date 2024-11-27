@@ -42,19 +42,19 @@
     <div id="menu-btn" class="fas fa-bars"></div>
 
     <!-- Logo -->
-    <a class="logo" href="../">
+     <a class="logo" href="/">
       <h2>Cooling<span><br>Masters</span></h2>
-      <!-- <img src="assets/images/logo.png" alt="logo" /> -->
+      <img src="../assets/images/logo247.jpeg" alt="ac emergency in miami" style="height: 78px;padding-left: 24px;"/>
     </a>
     
     <nav class="navbar">
-      <asp:Button class="btn btn-nav" ID="EmergencyHVAC" runat="server" Text="Emergency HVAC" OnClick="EmergencyHVAC_Click"/>
-      <asp:Button class="btn btn-nav" ID="AirConditioningInstallation" runat="server" Text="Air Conditioning Installation" OnClick="AirConditioningInstallation_Click"/>
-      <asp:Button class="btn btn-nav" ID="AirConditioningRepair" runat="server" Text="Air Conditioning Repair" OnClick="AirConditioningRepair_Click"/>
-      <asp:Button class="btn btn-nav" ID="AirConditionerReplacement" runat="server" Text="Air Conditioner Replacement" OnClick="AirConditionerReplacement_Click"/>
-      <asp:Button class="btn btn-nav" ID="AirDuctCleaning" runat="server" Text="Air Duct Cleaning" OnClick="AirDuctCleaning_Click"/>
-      <asp:Button class="btn btn-nav" ID="CommercialHVACService" runat="server" Text="Commercial HVAC Service" OnClick="CommercialHVACService_Click"/>
-      <asp:Button class="btn btn-nav" ID="AirConditioningMaintenance" runat="server" Text="Air Conditioning Maintenance" OnClick="AirConditioningMaintenance_Click"/>
+      <a class="link-menu" href="emergency-hvac-services.aspx">Emergency HVAC</a>
+      <a class="link-menu" href="air-conditioning-installation.aspx">Air Conditioning Installation</a>
+      <a class="link-menu" href="air-conditioning-repair.aspx">Air Conditioning Repair</a>
+      <a class="link-menu" href="/">Air Conditioner Replacement</a>
+      <a class="link-menu" href="air-ducts-cleaning.aspx">Air Duct Cleaning</a>
+      <a class="link-menu" href="commercial-hvac-services.aspx">Commercial HVAC Service</a>
+      <a class="link-menu" href="air-conditioning-maintenance.aspx">Air Conditioning Maintenance</a>
     </nav>
   </div>
    <!-------------------- Home Area (Start) -------------------->
@@ -153,10 +153,10 @@
           <a href="../Default.aspx">home</a>
           <a href="../AboutUs.aspx">about</a>
           <a href="services.aspx">services</a>
-          <a href="#gallery">areas we service</a>
+          <a href="service-areas/">areas we service</a>
           <a href="../ContactUs.aspx">contact us</a>
-          <a href="#testimonials">faqs</a>
-          <a href="#contact">blog</a> 
+          <a href="/">faqs</a>
+          <a href="/">blog</a> 
         </div>
       </div>
 
