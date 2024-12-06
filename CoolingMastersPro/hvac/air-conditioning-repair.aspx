@@ -41,21 +41,12 @@
 
     <div id="menu-btn" class="fas fa-bars"></div>
 
-    <!-- Logo -->
-    <a class="logo" href="../">
+    <a class="logo" href="/">
       <h2>Cooling<span><br>Masters</span></h2>
-      <!-- <img src="assets/images/logo.png" alt="logo" /> -->
+      <img src="../assets/images/logo247.jpeg" alt="ac emergency in miami" style="height: 78px;padding-left: 24px;"/>
     </a>
     
-    <nav class="navbar">
-      <asp:Button class="btn btn-nav" ID="EmergencyHVAC" runat="server" Text="Emergency HVAC" OnClick="EmergencyHVAC_Click"/>
-      <asp:Button class="btn btn-nav" ID="AirConditioningInstallation" runat="server" Text="Air Conditioning Installation" OnClick="AirConditioningInstallation_Click"/>
-      <asp:Button class="btn btn-nav" ID="AirConditioningRepair" runat="server" Text="Air Conditioning Repair" OnClick="AirConditioningRepair_Click"/>
-      <asp:Button class="btn btn-nav" ID="AirConditionerReplacement" runat="server" Text="Air Conditioner Replacement" OnClick="AirConditionerReplacement_Click"/>
-      <asp:Button class="btn btn-nav" ID="AirDuctCleaning" runat="server" Text="Air Duct Cleaning" OnClick="AirDuctCleaning_Click"/>
-      <asp:Button class="btn btn-nav" ID="CommercialHVACService" runat="server" Text="Commercial HVAC Service" OnClick="CommercialHVACService_Click"/>
-      <asp:Button class="btn btn-nav" ID="HVACMaintenanceTuneUp" runat="server" Text="HVAC Maintenance and Tune Up" OnClick="HVACMaintenanceTuneUp_Click"/>
-    </nav>
+    
   </div>
    <!-------------------- Home Area (Start) -------------------->
   <section class="home" id="home1">
@@ -70,6 +61,7 @@
                 <h2>Miami AC Repair</h2>
                 <h2>786 763 5621</h2>
                 <a href="#quickcontact" class="btn">make appointment</a>
+                <a href="tel:(786)763-5621" class="btn">call 786 763 5621</a></div>
               </div>
             </div>
           </div>
@@ -80,6 +72,31 @@
   <!-------------------- Home Area (End) -------------------->
 
   <!-------------------- About Area (Start) -------------------->
+    <section class="about" id="about">
+    <div>
+        <div class="main">
+            <div class="box-container">
+                <hr/>
+              <div class="content">
+                <h1>Air Conditioning Repair Near Me</h1>
+                  <div class="card-background-color-menu">
+                   <ul class="ul-services">
+                    <li><a href="emergency-hvac-services.aspx">Emergency HVAC</a></li>
+                    <li><a href="air-conditioning-installation.aspx">Air Conditioning Installation</a></li>
+                    <li><a href="air-conditioning-repair.aspx">Air Conditioning Repair</a></li>
+                    <li><a href="/">Air Conditioner Replacement</a></li>
+                    <li><a href="air-ducts-cleaning.aspx">Air Duct Cleaning</a></li>
+                    <li><a href="commercial-hvac-services.aspx">Commercial HVAC Service</a></li>
+                    <li><a href="air-conditioning-maintenance.aspx">Air Conditioning Maintenance</a></li>
+                 </ul> 
+                </div>
+              </div>
+            </div>
+            
+        </div>
+           
+    </div>
+  </section>    
   <section class="about" id="about">
 
    <div class="box-container">
@@ -171,33 +188,46 @@
         <p>Our service is available 24 hours, seven days a week,
            and we do not charge overtime rates during those hours. 
            We also offer Emergency Air Conditioning Service to our customers, which is provided in less than 60 minutes.</p>
+           <p>
+            Our air conditioning installations are meticulously designed and engineered to ensure optimal performance. 
+           </p>
+          <p> Cooling Masters Air Conditioning successfully installs approximately six hundred (600) air conditioning units annually.</p>
+          <p> Our achievements stem from our capability to design and engineer a greater number of high-efficiency systems than any other company in Florida.</p>
+       
       </div>
 
       <div class="footer-item">
         <h2>our services</h2>
         <div class="links">
-          <a href="#">Emergency HVAC</a>
-          <a href="#">Air Conditioning Installation</a>
-          <a href="#">Air Conditioning Repair</a>
-          <a href="#">Air Conditioner Replacement</a>
-          <a href="#">Air Duct Cleaning</a>
-          <a href="#">Commercial HVAC Service</a>
-          <a href="#">Air Conditioning Maintenance</a>
+          <a href="emergency-hvac-services.aspx">Emergency HVAC</a>
+          <a href="air-conditioning-installation.aspx">Air Conditioning Installation</a>
+          <a href="air-conditioning-repair.aspx">Air Conditioning Repair</a>
+          <a href="air-conditioner-replacement.aspx">Air Conditioner Replacement</a>
+          <a href="air-ducts-cleaning.aspx">Air Duct Cleaning</a>
+          <a href="commercial-hvac-services.aspx">Commercial HVAC Service</a>
+          <a href="air-conditioning-maintenance.aspx">Air Conditioning Maintenance</a>
         </div>
       </div>
 
-      <div class="footer-item">
+       <div class="footer-item">
         <h2>quick links</h2>
         <div class="links">
           <a href="../Default.aspx">home</a>
           <a href="../AboutUs.aspx">about</a>
           <a href="services.aspx">services</a>
-          <a href="#gallery">areas we service</a>
+          <a href="service-areas/">areas we service</a>
           <a href="../ContactUs.aspx">contact us</a>
-          <a href="#testimonials">faqs</a>
-          <a href="#contact">blog</a> 
+          <a href="/">faqs</a>
+          <a href="/">blog</a> 
         </div>
       </div>
+
+      <div class="footer-item">
+        <h2>quick contact</h2>
+        <img src="../assets/images/icons/phone.png" alt="phone" style="width: 26px;"/><p>Phone: 786 7635621</p>
+        <img src="../assets/images/icons/mail.png" alt="email" style="width: 26px;"/><p>Email: coolingmasters247@gmail.com</p>
+        <img src="../assets/images/icons/location.png" alt="location" style="width: 26px;"/><p>Location: Florida</p>
+      </div>  
     </div>
 
     <div class="content">

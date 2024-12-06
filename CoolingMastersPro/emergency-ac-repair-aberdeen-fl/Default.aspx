@@ -5,10 +5,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Services</title>
+    <title>Emergency AC Repair Services</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
-    <link rel="icon" href="../assets/emergency/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../assets/emergency/css/grid.css">
     <link rel="stylesheet" href="../assets/emergency/css/style.css">
     <script src="../assets/emergency/js/jquery.js"></script>
@@ -49,7 +48,7 @@
 
             <div class="row wow fadeInRight" data-wow-delay="0.4s">
                 <div class="grid_6">
-                    <p>Cooling Masters has been providing exceptional air conditioning repair services in Aberdeen, FL, FL for several years. During this time, it has positioned itself as one of the leading HVAC service providers for both residential and commercial customers.</p>
+                    <p>Cooling Masters has been providing exceptional air conditioning repair services in Aberdeen, FL for several years. During this time, it has positioned itself as one of the leading HVAC service providers for both residential and commercial customers.</p>
                 </div>
             </div>
             <div style="display: inline-flex;">
@@ -69,7 +68,7 @@
         <div class="row off2">
              <div class="grid_4 wow fadeInRight" data-wow-delay="0.3s">
                 <div class="box3 mt-img">
-                    <img src="../assets/emergency/images/page3-img6.jpg" alt=""/>
+                    <img src="../assets/emergency/images/emergency-ac.png" alt="Emergency AC Repair"/>
                     <div class="box3_cnt style="height: 139px;"">
                         <h4>
                             <a href="../hvac/emergency-hvac-services.aspx" style="font-size: 20px !important;">Emergency AC Repair</a>
@@ -82,7 +81,7 @@
             </div>
             <div class="grid_4 wow fadeInRight" data-wow-delay="0.3s">
                 <div class="box3 mt-img">
-                    <img src="../assets/emergency/images/page3-img6.jpg" alt=""/>
+                    <img src="../assets/emergency/images/ac-rails.png" alt="Air Conditioning Installation"/>
                     <div class="box3_cnt style="height: 139px;"">
                         <h4>
                             <a href="../hvac/air-conditioning-installation.aspx" style="font-size: 20px !important;">Air Conditioning Installation</a>
@@ -95,7 +94,7 @@
             </div>
             <div class="grid_4 wow fadeInRight" data-wow-delay="0.4s">
                 <div class="box3 mt-img">
-                    <img src="../assets/emergency/images/page3-img7.jpg" alt=""/>
+                    <img src="../assets/emergency/images/capacitor.png" alt="Air Conditioning Repair"/>
                     <div class="box3_cnt style="height: 139px;"">
                         <h4>
                             <a href="../hvac/air-conditioning-repair.aspx" style="font-size: 20px !important;">Air Conditioning Repair</a>
@@ -114,7 +113,7 @@
         <div class="row off2">
             <div class="grid_4 wow fadeInRight" data-wow-delay="0.2s">
                 <div class="box3 mt-img">
-                    <img src="../assets/emergency/images/page3-img5.jpg" alt=""/>
+                    <img src="../assets/emergency/images/ac-replacement.png" alt="Air Conditioning Replacement"/>
                     <div class="box3_cnt style="height: 139px;"">
                         <h4>
                             <a href="./" style="font-size: 20px !important;">Air Conditioning Replacement</a>
@@ -126,7 +125,7 @@
             </div>
             <div class="grid_4 wow fadeInRight" data-wow-delay="0.4s">
                 <div class="box3 mt-img">
-                    <img src="../assets/emergency/images/page3-img7.jpg" alt=""/>
+                    <img src="../assets/emergency/images/commercial-3.png" alt="Commercial HVAC Service"/>
                     <div class="box3_cnt style="height: 139px;"">
                         <h4>
                             <a href="../hvac/commercial-hvac-services.aspx" style="font-size: 20px !important;">Commercial HVAC Service</a>
@@ -141,7 +140,7 @@
             </div>
             <div class="grid_4 wow fadeInRight" data-wow-delay="0.4s">
                 <div class="box3 mt-img">
-                    <img src="../assets/emergency/images/page3-img7.jpg" alt=""/>
+                    <img src="../assets/emergency/images/run-capacitor.png" alt="Air Conditioning Maintenance"/>
                     <div class="box3_cnt style="height: 139px;"">
                         <h4>
                             <a href="../hvac/air-conditioning-maintenance.aspx" style="font-size: 20px !important;">Air Conditioning Maintenance</a>
@@ -285,7 +284,7 @@
             <div class="grid_6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="row">
                     <div class="grid_3">
-                        <img class="mt-img" src="../assets/emergency/images/clock.png" alt=""/>
+                        <img class="mt-img" src="../assets/emergency/images/clock.png" alt="ac emergency"/>
                     </div>
                     <div class="grid_3">
                         <h5>
@@ -313,7 +312,7 @@
             <div class="grid_6 wow fadeInLeft" data-wow-delay="0.3s">
                 <div class="row">
                     <div class="grid_3">
-                        <img src="../assets/emergency/images/coins.png" alt=""/>
+                        <img src="../assets/emergency/images/bills.png" alt=""/>
                     </div>
                     <div class="grid_3">
                         <h5>
@@ -340,7 +339,7 @@
     </div>
 </div>
 <div class="grid_4 wow fadeInLeft animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;padding-left: 10%;">
-                        <img class="mt-img" src="../assets/emergency/images/nest.jpeg" alt="">
+                        <img class="mt-img" src="../assets/emergency/images/thermostat.png" alt="change thermostat">
 </div>
 <div class="bg">
         <div class="container">
@@ -371,12 +370,8 @@
 
             <div class="row off1">
                 <div class="grid_8 wow fadeInLeft animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum d Sed sagittis </p>
+                    <p>Not every rattle or hiss is a problem, but knowing when to call a HVAC repair technician for more severe issues is essential. 
+                        If you don’t keep up with HVAC repairs, you could end up with a broken unit or more costly repairs. </p>
 
                     <div class="row off1">
                         <button class="accordion">Your AC is blowing warm/hot air.</button>
@@ -509,7 +504,7 @@
    
 </div>
     <div class="grid_4 wow fadeInLeft animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;padding-left: 10%;">
-         <img class="mt-img" src="../assets/emergency/images/gauge.png" alt="">
+         <img class="mt-img" src="../assets/emergency/images/gauge-meter-2.png" alt="ac preasures checking">
     </div>
      <div class="bg">
         <div class="container">
@@ -629,7 +624,7 @@
     <hr/>
 
     <div class="container wow fadeInUp" data-wow-delay="0.2s">
-       <p>Cooling <span>Masters</span> | all rights reserved</p>
+       <p style="color: #ffffff;">Cooling <span>Masters</span> | all rights reserved</p>
     </div>
 
 </footer>

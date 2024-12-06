@@ -44,23 +44,10 @@
     <div id="menu-btn" class="fas fa-bars"></div>
 
     <!-- Logo -->
-    <a class="logo" href="#home">
+    <a class="logo" href="/">
       <h2>Cooling<span><br>Masters</span></h2>
-      <!-- <img src="assets/images/logo.png" alt="logo" /> -->
+      <img src="assets/images/logo247.jpeg" alt="ac emergency in miami" style="height: 78px;padding-left: 24px;"/>
     </a>
-    
-    <nav class="navbar">
-      <asp:Button class="btn btn-nav" ID="Home" runat="server" Text="Home" OnClick="Home_Click"/>
-      <asp:Button class="btn btn-nav" ID="About" runat="server" Text="About" OnClick="About_Click"/>
-      <asp:Button class="btn btn-nav" ID="Services" runat="server" Text="Services" OnClick="Services_Click"/>
-      <asp:Button class="btn btn-nav" ID="AreasWeService" runat="server" Text="Areas We Service"/>  
-      <asp:Button class="btn btn-nav" ID="FAQ" runat="server" Text="FAQ" OnClick="FAQ_Click"/>
-      <asp:Button class="btn btn-nav" ID="ContactUs" runat="server" Text="Contact Us" OnClick="ContactUs_Click"/>
-      <asp:Button class="btn btn-nav" ID="Blog" runat="server" Text="Blog" OnClick="Blog_Click"/>
-    </nav>
-
-    <a href="#quickcontact" class="btn appointment-btn">make appointment</a>
-
   </div>
    <!-------------------- Home Area (Start) -------------------->
   <section class="home" id="home">
@@ -76,6 +63,7 @@
                 <h2>786 763 5621</h2>
                 <p>Our dedication to service your entire HVAC system can never cease. That is the reason we offer at least once service every day of the week.</p>
                 <a href="#quickcontact" class="btn">make appointment</a>
+                <a href="tel:(786)763-5621" class="btn">call 786 763 5621</a></div>
               </div>
             </div>
           </div>
@@ -181,13 +169,13 @@
       <div class="footer-item">
         <h2>our services</h2>
         <div class="links">
-          <a href="#">Emergency HVAC</a>
-          <a href="#">Air Conditioning Installation</a>
-          <a href="#">Air Conditioning Repair</a>
-          <a href="#">Air Conditioner Replacement</a>
-          <a href="#">Air Duct Cleaning</a>
-          <a href="#">Commercial HVAC Service</a>
-          <a href="#">Air Conditioning Maintenance</a>
+         <a href="hvac/emergency-hvac-services.aspx">Emergency HVAC</a>
+          <a href="hvac/air-conditioning-installation.aspx">Air Conditioning Installation</a>
+          <a href="hvac/air-conditioning-repair.aspx">Air Conditioning Repair</a>
+          <a href="./">Air Conditioner Replacement</a>
+          <a href="hvac/air-ducts-cleaning.aspx">Air Duct Cleaning</a>
+          <a href="hvac/commercial-hvac-services.aspx">Commercial HVAC Service</a>
+          <a href="hvac/air-conditioning-maintenance.aspx">Air Conditioning Maintenance</a>
         </div>
       </div>
 
