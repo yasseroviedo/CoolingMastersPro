@@ -44,7 +44,7 @@
 =========================================================*/
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 29px;
     font-weight: 400;
     /*background: #1c1c1c;*/
@@ -197,7 +197,7 @@ h5 + .off1 {
 }
 h5 + .off3 {
     margin-top: 12px;
-    font-size: 1.0rem;
+    font-size: 22px;
     color: #666;
     line-height: 1.6;
     padding-bottom: 1.5rem;
@@ -685,7 +685,7 @@ nav {
 }
 .number-box .clearfix + p {
     margin-top: 12px;
-    font-size: 1.0rem;
+    font-size: 20px;
     color: #666;
     line-height: 1.6;
     padding-bottom: 1.5rem;
@@ -1021,7 +1021,7 @@ h4-emergency {
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 20px;
     transition: 0.4s;
 }
 

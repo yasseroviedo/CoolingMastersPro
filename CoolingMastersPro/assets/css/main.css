@@ -34,15 +34,14 @@
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-*{
-  border-style: none;
+* {
+    border-style: none;
     border-color: inherit;
     border-width: medium;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding: 0;
     -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-
+    box-sizing: border-box;
     outline: none;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
@@ -162,8 +161,7 @@ section {
     right: 0;
     z-index: 1100;
     padding: 2rem 5%;
-    /*background: rgba(0, 0, 0, 0.2);*/
-    background: #035397;
+    background: rgba(0, 0, 0, 0.2);
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
@@ -357,7 +355,7 @@ section {
 
 .home-item .content .text p {
     line-height: 1.4;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     padding: 1rem 0;
     color: var(--yellow);
     -webkit-text-stroke-width: 1px;
@@ -423,7 +421,7 @@ section {
 }
 
 .about .content p{
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   color: var(--grey);
   line-height: 1.6;
   padding-bottom: 1.5rem;
@@ -469,7 +467,7 @@ section {
 }
 
 .about ul{
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     color: var(--grey);
     line-height: 1.6;
     padding-bottom: 1.5rem;
@@ -477,7 +475,7 @@ section {
 }
 
 .about ol {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     color: var(--grey);
     line-height: 1.6;
     padding-bottom: 1.5rem;
@@ -512,7 +510,7 @@ section {
     border: var(--border);
     -webkit-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
-    height: 350px;
+    height: 500px;
 }
 
 .service-item .icon{
@@ -553,7 +551,7 @@ section {
 
 .service-item p{
   color: var(--grey);
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   line-height: 1.6;
 }
 
@@ -787,7 +785,7 @@ section {
 
 .testimonial .testi-item p{
   color: var(--grey);
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   line-height: 1.6;
   padding-bottom: 2rem;
 }
@@ -940,7 +938,7 @@ section {
 }
 
 .contact-info > p{
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   color: var(--white);
   padding: 0.5rem 0;
 }
@@ -1185,14 +1183,14 @@ section {
 
 .footer-item p{
   color: var(--white);
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   line-height: 1.6;
 }
 
 
 .footer-item .info p{
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   color: var(--white);
   margin-bottom: 1.5rem;
 }
@@ -1255,7 +1253,7 @@ section {
 .footer-item .links a,
 .footer-item .iinks p{
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   color: var(--white);
   margin-bottom: 1.5rem;
 }
@@ -1335,9 +1333,9 @@ section {
     border: solid 1px #c5cbce;
     background-color: #f5f7fa;*/
 
-    background: #f4f5f6 !important;
+    background: var(--yellow) !important;
     border-radius: 5px;
-    border-bottom: 4px solid #d8d8d8;
+    border-bottom: 4px solid var(--blue);
     border-top: none;
     padding-left: 30px;
     padding-right: 30px;
@@ -1390,3 +1388,86 @@ section {
         width: 100%;
     }
 }
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+    .active, .accordion:hover {
+        background-color: #ccc;
+    }
+
+.panel-accordion {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.card-background-color-areas {
+    background: #FCD900 !important;
+    border-radius: 5px;
+    border-bottom: 4px solid #035397;
+    border-top: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card-background-color-areas > ul > li {
+    color: #035397;
+    list-style-type: none;
+}
+
+
+.card-background-color-areas > ul > li > a:hover {
+    font-weight: bold;
+}
+
+.link-menu:hover {
+    color: #FCD900;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ul-services > li {
+    float: left;
+    list-style-type: none;
+}
+
+.ul-services > li > a {
+    display: block;
+    color: var(--blue);
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+}
+
+    .ul-services > li > a:hover {
+        background-color: var(--blue);
+        color: var(--white);
+    }
+
+.card-background-color-menu {
+    background: var(--yellow);
+    border-radius: 5px;
+    border-top: none;
+    padding-right: 30px;
+    height: 100%;
+}
+
+.ul-services {
+    font-size: 1.9rem;
+    color: var(--grey);
+    line-height: 1.6;
+    padding-bottom: 1.5rem;
+}
+

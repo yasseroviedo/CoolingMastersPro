@@ -45,6 +45,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Collections.NonGeneric, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.NonGeneric.4.3.0\lib\net46\System.Collections.NonGeneric.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -103,6 +108,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
+    <Content Include="air-conditioning\ac-repair-aberdeen-fl\Default.aspx" />
+    <Content Include="air-conditioning\Default.aspx" />
     <Content Include="assets\css\main.css" />
     <Content Include="assets\css\responsive.css" />
     <Content Include="assets\emergency\css\animate.css" />
@@ -112,15 +119,23 @@
     <Content Include="assets\emergency\css\owl.carousel.css" />
     <Content Include="assets\emergency\css\style.css" />
     <Content Include="assets\emergency\css\touchTouch.css" />
+    <Content Include="assets\emergency\images\ac-rails.png" />
+    <Content Include="assets\emergency\images\ac-replacement.png" />
     <Content Include="assets\emergency\images\AjaxLoader.gif" />
     <Content Include="assets\emergency\images\arrows.png" />
+    <Content Include="assets\emergency\images\bills.png" />
     <Content Include="assets\emergency\images\blank.gif" />
     <Content Include="assets\emergency\images\camera-loader.gif" />
     <Content Include="assets\emergency\images\camera_skins.png" />
+    <Content Include="assets\emergency\images\capacitor.png" />
     <Content Include="assets\emergency\images\clock.png" />
     <Content Include="assets\emergency\images\coins.png" />
+    <Content Include="assets\emergency\images\commercial-1.png" />
+    <Content Include="assets\emergency\images\commercial-3.png" />
+    <Content Include="assets\emergency\images\emergency-ac.png" />
     <Content Include="assets\emergency\images\favicon.ico" />
     <Content Include="assets\emergency\images\form-loader.gif" />
+    <Content Include="assets\emergency\images\gauge-meter-2.png" />
     <Content Include="assets\emergency\images\gauge.png" />
     <Content Include="assets\emergency\images\grabbing.png" />
     <Content Include="assets\emergency\images\logo.png" />
@@ -160,7 +175,9 @@
     <Content Include="assets\emergency\images\page4-img4.jpg" />
     <Content Include="assets\emergency\images\page4-img5.jpg" />
     <Content Include="assets\emergency\images\preloader.gif" />
+    <Content Include="assets\emergency\images\run-capacitor.png" />
     <Content Include="assets\emergency\images\select.png" />
+    <Content Include="assets\emergency\images\thermostat.png" />
     <Content Include="assets\emergency\images\vip.png" />
     <Content Include="assets\emergency\js\camera.js" />
     <Content Include="assets\emergency\js\core.min.js" />
@@ -191,6 +208,7 @@
     <Content Include="assets\images\AboutUs\AboutUs2.png" />
     <Content Include="assets\images\AboutUs\AboutUs3.png" />
     <Content Include="assets\images\About\About-us.png" />
+    <Content Include="assets\images\Areas\commercial-4.png" />
     <Content Include="assets\images\Blogs\Blog-1.png" />
     <Content Include="assets\images\Blogs\Blog-2.png" />
     <Content Include="assets\images\Blogs\Blog-3.png" />
@@ -231,6 +249,7 @@
     <Content Include="assets\images\Services\Services1.png" />
     <Content Include="assets\images\Services\Services2.png" />
     <Content Include="assets\images\Services\Services3.png" />
+    <Content Include="assets\images\Sitemap\Sitemap.png" />
     <Content Include="assets\images\Team\Team-1.png" />
     <Content Include="assets\images\Team\Team-2.png" />
     <Content Include="assets\images\Team\Team-3.png" />
@@ -433,7 +452,7 @@
     <Content Include="emergency-ac-repair-southwest-ranches-fl\Default.aspx" />
     <Content Include="emergency-ac-repair-spring-hill-fl\Default.aspx" />
     <Content Include="emergency-ac-repair-stacey-street-fl\Default.aspx" />
-    <Content Include="emergency-ac-repair-start-island-fl\Default.aspx" />
+    <Content Include="emergency-ac-repair-star-island-fl\Default.aspx" />
     <Content Include="emergency-ac-repair-sun-center-fl\Default.aspx" />
     <Content Include="emergency-ac-repair-sunny-isles-beach-fl\Default.aspx" />
     <Content Include="emergency-ac-repair-sunrise-fl\Default.aspx" />
@@ -470,6 +489,7 @@
     <Content Include="hvac\commercial-hvac-services.aspx" />
     <Content Include="hvac\emergency-hvac-services.aspx" />
     <Content Include="hvac\miami\Default.aspx" />
+    <Content Include="hvac\service-areas\Default.aspx" />
     <Content Include="hvac\services.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -547,6 +567,8 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="sitemap.aspx" />
+    <Content Include="sitemap.xml" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -559,6 +581,20 @@
     </Compile>
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="air-conditioning\ac-repair-aberdeen-fl\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="air-conditioning\ac-repair-aberdeen-fl\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="air-conditioning\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="air-conditioning\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -1514,11 +1550,11 @@
     <Compile Include="emergency-ac-repair-stacey-street-fl\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="emergency-ac-repair-start-island-fl\Default.aspx.cs">
+    <Compile Include="emergency-ac-repair-star-island-fl\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="emergency-ac-repair-start-island-fl\Default.aspx.designer.cs">
+    <Compile Include="emergency-ac-repair-star-island-fl\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="emergency-ac-repair-sun-center-fl\Default.aspx.cs">
@@ -1762,6 +1798,13 @@
     <Compile Include="hvac\miami\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="hvac\service-areas\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hvac\service-areas\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="hvac\services.aspx.cs">
       <DependentUpon>services.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1791,7 +1834,15 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="sitemap.aspx.cs">
+      <DependentUpon>sitemap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sitemap.aspx.designer.cs">
+      <DependentUpon>sitemap.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Utils\Email.cs" />
+    <Compile Include="Utils\SitemapWebNode.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1976,168 +2027,167 @@
     <Folder Include="ac-technician-wynwood-fl\" />
     <Folder Include="ac-techniciansaint-petersburg-fl\" />
     <Folder Include="ac-technicianwilton-manors-fl\" />
+    <Folder Include="air-conditioning\ac-repair-alafaya-fl\" />
+    <Folder Include="air-conditioning\ac-repair-allapattah-fl\" />
+    <Folder Include="air-conditioning\ac-repair-altamonte-springs-fl\" />
+    <Folder Include="air-conditioning\ac-repair-apopka-fl\" />
+    <Folder Include="air-conditioning\ac-repair-atlantis-fl\" />
+    <Folder Include="air-conditioning\ac-repair-aventura-fl\" />
+    <Folder Include="air-conditioning\ac-repair-bal-harbour-fl\" />
+    <Folder Include="air-conditioning\ac-repair-bay-harbor-islands-fl\" />
+    <Folder Include="air-conditioning\ac-repair-biscayne-park-fl\" />
+    <Folder Include="air-conditioning\ac-repair-boca-raton-fl\" />
+    <Folder Include="air-conditioning\ac-repair-boulevard-gardens-fl\" />
+    <Folder Include="air-conditioning\ac-repair-boynton-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-brickell-fl\" />
+    <Folder Include="air-conditioning\ac-repair-briny-breezes-fl\" />
+    <Folder Include="air-conditioning\ac-repair-broadview-park-fl\" />
+    <Folder Include="air-conditioning\ac-repair-cloud-lake-fl\" />
+    <Folder Include="air-conditioning\ac-repair-coconut-creek-fl\" />
+    <Folder Include="air-conditioning\ac-repair-coconut-grove-fl\" />
+    <Folder Include="air-conditioning\ac-repair-cooper-city-fl\" />
+    <Folder Include="air-conditioning\ac-repair-coral-gables-fl\" />
+    <Folder Include="air-conditioning\ac-repair-coral-springs-fl\" />
+    <Folder Include="air-conditioning\ac-repair-coral-terrace-fl\" />
+    <Folder Include="air-conditioning\ac-repair-cutler-bay-fl\" />
+    <Folder Include="air-conditioning\ac-repair-dania-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-davie-fl\" />
+    <Folder Include="air-conditioning\ac-repair-daytona-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-daytona-beach-shores-fl\" />
+    <Folder Include="air-conditioning\ac-repair-deerfield-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-delray-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-design-district-fl\" />
+    <Folder Include="air-conditioning\ac-repair-doral-fl\" />
+    <Folder Include="air-conditioning\ac-repair-downtown-miami-fl\" />
+    <Folder Include="air-conditioning\ac-repair-dunes-road-fl\" />
+    <Folder Include="air-conditioning\ac-repair-edgewater-miami-fl\" />
+    <Folder Include="air-conditioning\ac-repair-el-portal-fl\" />
+    <Folder Include="air-conditioning\ac-repair-fairview-shores-fl\" />
+    <Folder Include="air-conditioning\ac-repair-fern-park-fl\" />
+    <Folder Include="air-conditioning\ac-repair-fisher-island-fl\" />
+    <Folder Include="air-conditioning\ac-repair-florida-city-fl\" />
+    <Folder Include="air-conditioning\ac-repair-fontainebleau-fl\" />
+    <Folder Include="air-conditioning\ac-repair-forest-city-fl\" />
+    <Folder Include="air-conditioning\ac-repair-fort-lauderdale-fl\" />
+    <Folder Include="air-conditioning\ac-repair-franklin-park-fl\" />
+    <Folder Include="air-conditioning\ac-repair-geneva-fl\" />
+    <Folder Include="air-conditioning\ac-repair-glen-ridge-fl\" />
+    <Folder Include="air-conditioning\ac-repair-golden-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-golden-glades-fl\" />
+    <Folder Include="air-conditioning\ac-repair-golf-fl\" />
+    <Folder Include="air-conditioning\ac-repair-goulds-fl\" />
+    <Folder Include="air-conditioning\ac-repair-greenacres-fl\" />
+    <Folder Include="air-conditioning\ac-repair-gulf-stream-fl\" />
+    <Folder Include="air-conditioning\ac-repair-hallandale-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-haverhill-fl\" />
+    <Folder Include="air-conditioning\ac-repair-hialeah-fl\" />
+    <Folder Include="air-conditioning\ac-repair-hialeah-gardens-fl\" />
+    <Folder Include="air-conditioning\ac-repair-highland-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-hillsboro-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-hillsboro-pines-fl\" />
+    <Folder Include="air-conditioning\ac-repair-hollywood-fl\" />
+    <Folder Include="air-conditioning\ac-repair-homestead-fl\" />
+    <Folder Include="air-conditioning\ac-repair-hypoluxo-fl\" />
+    <Folder Include="air-conditioning\ac-repair-indian-creek-fl\" />
+    <Folder Include="air-conditioning\ac-repair-juno-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-juno-ridge-fl\" />
+    <Folder Include="air-conditioning\ac-repair-jupiter-fl\" />
+    <Folder Include="air-conditioning\ac-repair-jupiter-inlet-colony-fl\" />
+    <Folder Include="air-conditioning\ac-repair-kendale-lakes-fl\" />
+    <Folder Include="air-conditioning\ac-repair-kendall-fl\" />
+    <Folder Include="air-conditioning\ac-repair-kendall-west-fl\" />
+    <Folder Include="air-conditioning\ac-repair-key-biscayne-fl\" />
+    <Folder Include="air-conditioning\ac-repair-kings-point-fl\" />
+    <Folder Include="air-conditioning\ac-repair-lake-belvedere-estates-fl\" />
+    <Folder Include="air-conditioning\ac-repair-lake-clarke-shores-fl\" />
+    <Folder Include="air-conditioning\ac-repair-lake-park-fl\" />
+    <Folder Include="air-conditioning\ac-repair-lake-worth-fl\" />
+    <Folder Include="air-conditioning\ac-repair-lantana-fl\" />
+    <Folder Include="air-conditioning\ac-repair-lauderdale-by-the-sea-fl\" />
+    <Folder Include="air-conditioning\ac-repair-lauderdale-lakes-fl\" />
+    <Folder Include="air-conditioning\ac-repair-lauderhill-fl\" />
+    <Folder Include="air-conditioning\ac-repair-lazy-lake-fl\" />
+    <Folder Include="air-conditioning\ac-repair-liberty-city-fl\" />
+    <Folder Include="air-conditioning\ac-repair-lighthouse-point-fl\" />
+    <Folder Include="air-conditioning\ac-repair-limestone-creek-fl\" />
+    <Folder Include="air-conditioning\ac-repair-little-havana-fl\" />
+    <Folder Include="air-conditioning\ac-repair-loxahatchee-groves-fl\" />
+    <Folder Include="air-conditioning\ac-repair-manalapan-fl\" />
+    <Folder Include="air-conditioning\ac-repair-mangonia-park-fl\" />
+    <Folder Include="air-conditioning\ac-repair-margate-fl\" />
+    <Folder Include="air-conditioning\ac-repair-medley-fl\" />
+    <Folder Include="air-conditioning\ac-repair-miami-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-miami-fl\" />
+    <Folder Include="air-conditioning\ac-repair-miami-gardens-fl\" />
+    <Folder Include="air-conditioning\ac-repair-miami-lakes-fl\" />
+    <Folder Include="air-conditioning\ac-repair-miami-shores-fl\" />
+    <Folder Include="air-conditioning\ac-repair-miami-springs-fl\" />
+    <Folder Include="air-conditioning\ac-repair-miramar-fl\" />
+    <Folder Include="air-conditioning\ac-repair-naranja-fl\" />
+    <Folder Include="air-conditioning\ac-repair-north-bay-village-fl\" />
+    <Folder Include="air-conditioning\ac-repair-north-lauderdale-fl\" />
+    <Folder Include="air-conditioning\ac-repair-north-miami-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-north-miami-fl\" />
+    <Folder Include="air-conditioning\ac-repair-north-palm-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-oakland-park-fl\" />
+    <Folder Include="air-conditioning\ac-repair-ocean-ridge-fl\" />
+    <Folder Include="air-conditioning\ac-repair-olympia-heights-fl\" />
+    <Folder Include="air-conditioning\ac-repair-opa-locka-fl\" />
+    <Folder Include="air-conditioning\ac-repair-overtown-miami-fl\" />
+    <Folder Include="air-conditioning\ac-repair-palm-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-palm-beach-gardens-fl\" />
+    <Folder Include="air-conditioning\ac-repair-palm-beach-shores-fl\" />
+    <Folder Include="air-conditioning\ac-repair-palm-harbor-fl\" />
+    <Folder Include="air-conditioning\ac-repair-palm-springs-fl\" />
+    <Folder Include="air-conditioning\ac-repair-palmetto-bay-fl\" />
+    <Folder Include="air-conditioning\ac-repair-pembroke-park-fl\" />
+    <Folder Include="air-conditioning\ac-repair-pembroke-pines-fl\" />
+    <Folder Include="air-conditioning\ac-repair-pine-island-ridge-fl\" />
+    <Folder Include="air-conditioning\ac-repair-pinecrest-fl\" />
+    <Folder Include="air-conditioning\ac-repair-plantation-fl\" />
+    <Folder Include="air-conditioning\ac-repair-pompano-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-riviera-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-royal-palm-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-royal-palm-estates-fl\" />
+    <Folder Include="air-conditioning\ac-repair-saint-petersburg-fl\" />
+    <Folder Include="air-conditioning\ac-repair-schall-circle-fl\" />
+    <Folder Include="air-conditioning\ac-repair-sea-ranch-lakes-fl\" />
+    <Folder Include="air-conditioning\ac-repair-seminole-fl\" />
+    <Folder Include="air-conditioning\ac-repair-south-miami-fl\" />
+    <Folder Include="air-conditioning\ac-repair-south-miami-heights-fl\" />
+    <Folder Include="air-conditioning\ac-repair-south-of-fifth-fl\" />
+    <Folder Include="air-conditioning\ac-repair-south-palm-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-southwest-ranches-fl\" />
+    <Folder Include="air-conditioning\ac-repair-spring-hill-fl\" />
+    <Folder Include="air-conditioning\ac-repair-stacey-street-fl\" />
+    <Folder Include="air-conditioning\ac-repair-start-island-fl\" />
+    <Folder Include="air-conditioning\ac-repair-sun-center-fl\" />
+    <Folder Include="air-conditioning\ac-repair-sunny-isles-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-sunrise-fl\" />
+    <Folder Include="air-conditioning\ac-repair-sunshine-acres-fl\" />
+    <Folder Include="air-conditioning\ac-repair-surfside-fl\" />
+    <Folder Include="air-conditioning\ac-repair-sweetwater-fl\" />
+    <Folder Include="air-conditioning\ac-repair-tamarac-fl\" />
+    <Folder Include="air-conditioning\ac-repair-tamiami-fl\" />
+    <Folder Include="air-conditioning\ac-repair-tarpon-springs-fl\" />
+    <Folder Include="air-conditioning\ac-repair-temple-terrace-fl\" />
+    <Folder Include="air-conditioning\ac-repair-tequesta-fl\" />
+    <Folder Include="air-conditioning\ac-repair-the-hammocks-fl\" />
+    <Folder Include="air-conditioning\ac-repair-thonotosassa-fl\" />
+    <Folder Include="air-conditioning\ac-repair-university-park-fl\" />
+    <Folder Include="air-conditioning\ac-repair-virginia-gardens-fl\" />
+    <Folder Include="air-conditioning\ac-repair-washington-park-fl\" />
+    <Folder Include="air-conditioning\ac-repair-wellington-fl\" />
+    <Folder Include="air-conditioning\ac-repair-west-little-river-fl\" />
+    <Folder Include="air-conditioning\ac-repair-west-miami-fl\" />
+    <Folder Include="air-conditioning\ac-repair-west-palm-beach-fl\" />
+    <Folder Include="air-conditioning\ac-repair-west-park-fl\" />
+    <Folder Include="air-conditioning\ac-repair-westchester-fl\" />
+    <Folder Include="air-conditioning\ac-repair-westgate-fl\" />
+    <Folder Include="air-conditioning\ac-repair-weston-fl\" />
+    <Folder Include="air-conditioning\ac-repair-wilton-manors-fl\" />
+    <Folder Include="air-conditioning\ac-repair-wynwood-fl\" />
     <Folder Include="App_Data\" />
-    <Folder Include="service-areas\ac-repair-aberdeen-fl\" />
-    <Folder Include="service-areas\ac-repair-alafaya-fl\" />
-    <Folder Include="service-areas\ac-repair-allapattah-fl\" />
-    <Folder Include="service-areas\ac-repair-altamonte-springs-fl\" />
-    <Folder Include="service-areas\ac-repair-apopka-fl\" />
-    <Folder Include="service-areas\ac-repair-atlantis-fl\" />
-    <Folder Include="service-areas\ac-repair-aventura-fl\" />
-    <Folder Include="service-areas\ac-repair-bal-harbour-fl\" />
-    <Folder Include="service-areas\ac-repair-bay-harbor-islands-fl\" />
-    <Folder Include="service-areas\ac-repair-biscayne-park-fl\" />
-    <Folder Include="service-areas\ac-repair-boca-raton-fl\" />
-    <Folder Include="service-areas\ac-repair-boulevard-gardens-fl\" />
-    <Folder Include="service-areas\ac-repair-boynton-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-brickell-fl\" />
-    <Folder Include="service-areas\ac-repair-briny-breezes-fl\" />
-    <Folder Include="service-areas\ac-repair-broadview-park-fl\" />
-    <Folder Include="service-areas\ac-repair-cloud-lake-fl\" />
-    <Folder Include="service-areas\ac-repair-coconut-creek-fl\" />
-    <Folder Include="service-areas\ac-repair-coconut-grove-fl\" />
-    <Folder Include="service-areas\ac-repair-cooper-city-fl\" />
-    <Folder Include="service-areas\ac-repair-coral-gables-fl\" />
-    <Folder Include="service-areas\ac-repair-coral-springs-fl\" />
-    <Folder Include="service-areas\ac-repair-coral-terrace-fl\" />
-    <Folder Include="service-areas\ac-repair-cutler-bay-fl\" />
-    <Folder Include="service-areas\ac-repair-dania-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-davie-fl\" />
-    <Folder Include="service-areas\ac-repair-daytona-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-daytona-beach-shores-fl\" />
-    <Folder Include="service-areas\ac-repair-deerfield-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-delray-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-design-district-fl\" />
-    <Folder Include="service-areas\ac-repair-doral-fl\" />
-    <Folder Include="service-areas\ac-repair-downtown-miami-fl\" />
-    <Folder Include="service-areas\ac-repair-dunes-road-fl\" />
-    <Folder Include="service-areas\ac-repair-edgewater-miami-fl\" />
-    <Folder Include="service-areas\ac-repair-el-portal-fl\" />
-    <Folder Include="service-areas\ac-repair-fairview-shores-fl\" />
-    <Folder Include="service-areas\ac-repair-fern-park-fl\" />
-    <Folder Include="service-areas\ac-repair-fisher-island-fl\" />
-    <Folder Include="service-areas\ac-repair-florida-city-fl\" />
-    <Folder Include="service-areas\ac-repair-fontainebleau-fl\" />
-    <Folder Include="service-areas\ac-repair-forest-city-fl\" />
-    <Folder Include="service-areas\ac-repair-fort-lauderdale-fl\" />
-    <Folder Include="service-areas\ac-repair-franklin-park-fl\" />
-    <Folder Include="service-areas\ac-repair-geneva-fl\" />
-    <Folder Include="service-areas\ac-repair-glen-ridge-fl\" />
-    <Folder Include="service-areas\ac-repair-golden-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-golden-glades-fl\" />
-    <Folder Include="service-areas\ac-repair-golf-fl\" />
-    <Folder Include="service-areas\ac-repair-goulds-fl\" />
-    <Folder Include="service-areas\ac-repair-greenacres-fl\" />
-    <Folder Include="service-areas\ac-repair-gulf-stream-fl\" />
-    <Folder Include="service-areas\ac-repair-hallandale-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-haverhill-fl\" />
-    <Folder Include="service-areas\ac-repair-hialeah-fl\" />
-    <Folder Include="service-areas\ac-repair-hialeah-gardens-fl\" />
-    <Folder Include="service-areas\ac-repair-highland-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-hillsboro-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-hillsboro-pines-fl\" />
-    <Folder Include="service-areas\ac-repair-hollywood-fl\" />
-    <Folder Include="service-areas\ac-repair-homestead-fl\" />
-    <Folder Include="service-areas\ac-repair-hypoluxo-fl\" />
-    <Folder Include="service-areas\ac-repair-indian-creek-fl\" />
-    <Folder Include="service-areas\ac-repair-juno-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-juno-ridge-fl\" />
-    <Folder Include="service-areas\ac-repair-jupiter-fl\" />
-    <Folder Include="service-areas\ac-repair-jupiter-inlet-colony-fl\" />
-    <Folder Include="service-areas\ac-repair-kendale-lakes-fl\" />
-    <Folder Include="service-areas\ac-repair-kendall-fl\" />
-    <Folder Include="service-areas\ac-repair-kendall-west-fl\" />
-    <Folder Include="service-areas\ac-repair-key-biscayne-fl\" />
-    <Folder Include="service-areas\ac-repair-kings-point-fl\" />
-    <Folder Include="service-areas\ac-repair-lake-belvedere-estates-fl\" />
-    <Folder Include="service-areas\ac-repair-lake-clarke-shores-fl\" />
-    <Folder Include="service-areas\ac-repair-lake-park-fl\" />
-    <Folder Include="service-areas\ac-repair-lake-worth-fl\" />
-    <Folder Include="service-areas\ac-repair-lantana-fl\" />
-    <Folder Include="service-areas\ac-repair-lauderdale-by-the-sea-fl\" />
-    <Folder Include="service-areas\ac-repair-lauderdale-lakes-fl\" />
-    <Folder Include="service-areas\ac-repair-lauderhill-fl\" />
-    <Folder Include="service-areas\ac-repair-lazy-lake-fl\" />
-    <Folder Include="service-areas\ac-repair-liberty-city-fl\" />
-    <Folder Include="service-areas\ac-repair-lighthouse-point-fl\" />
-    <Folder Include="service-areas\ac-repair-limestone-creek-fl\" />
-    <Folder Include="service-areas\ac-repair-little-havana-fl\" />
-    <Folder Include="service-areas\ac-repair-loxahatchee-groves-fl\" />
-    <Folder Include="service-areas\ac-repair-manalapan-fl\" />
-    <Folder Include="service-areas\ac-repair-mangonia-park-fl\" />
-    <Folder Include="service-areas\ac-repair-margate-fl\" />
-    <Folder Include="service-areas\ac-repair-medley-fl\" />
-    <Folder Include="service-areas\ac-repair-miami-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-miami-fl\" />
-    <Folder Include="service-areas\ac-repair-miami-gardens-fl\" />
-    <Folder Include="service-areas\ac-repair-miami-lakes-fl\" />
-    <Folder Include="service-areas\ac-repair-miami-shores-fl\" />
-    <Folder Include="service-areas\ac-repair-miami-springs-fl\" />
-    <Folder Include="service-areas\ac-repair-miramar-fl\" />
-    <Folder Include="service-areas\ac-repair-naranja-fl\" />
-    <Folder Include="service-areas\ac-repair-north-bay-village-fl\" />
-    <Folder Include="service-areas\ac-repair-north-lauderdale-fl\" />
-    <Folder Include="service-areas\ac-repair-north-miami-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-north-miami-fl\" />
-    <Folder Include="service-areas\ac-repair-north-palm-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-oakland-park-fl\" />
-    <Folder Include="service-areas\ac-repair-ocean-ridge-fl\" />
-    <Folder Include="service-areas\ac-repair-olympia-heights-fl\" />
-    <Folder Include="service-areas\ac-repair-opa-locka-fl\" />
-    <Folder Include="service-areas\ac-repair-overtown-miami-fl\" />
-    <Folder Include="service-areas\ac-repair-palm-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-palm-beach-gardens-fl\" />
-    <Folder Include="service-areas\ac-repair-palm-beach-shores-fl\" />
-    <Folder Include="service-areas\ac-repair-palm-harbor-fl\" />
-    <Folder Include="service-areas\ac-repair-palm-springs-fl\" />
-    <Folder Include="service-areas\ac-repair-palmetto-bay-fl\" />
-    <Folder Include="service-areas\ac-repair-pembroke-park-fl\" />
-    <Folder Include="service-areas\ac-repair-pembroke-pines-fl\" />
-    <Folder Include="service-areas\ac-repair-pine-island-ridge-fl\" />
-    <Folder Include="service-areas\ac-repair-pinecrest-fl\" />
-    <Folder Include="service-areas\ac-repair-plantation-fl\" />
-    <Folder Include="service-areas\ac-repair-pompano-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-riviera-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-royal-palm-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-royal-palm-estates-fl\" />
-    <Folder Include="service-areas\ac-repair-saint-petersburg-fl\" />
-    <Folder Include="service-areas\ac-repair-schall-circle-fl\" />
-    <Folder Include="service-areas\ac-repair-sea-ranch-lakes-fl\" />
-    <Folder Include="service-areas\ac-repair-seminole-fl\" />
-    <Folder Include="service-areas\ac-repair-south-miami-fl\" />
-    <Folder Include="service-areas\ac-repair-south-miami-heights-fl\" />
-    <Folder Include="service-areas\ac-repair-south-of-fifth-fl\" />
-    <Folder Include="service-areas\ac-repair-south-palm-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-southwest-ranches-fl\" />
-    <Folder Include="service-areas\ac-repair-spring-hill-fl\" />
-    <Folder Include="service-areas\ac-repair-stacey-street-fl\" />
-    <Folder Include="service-areas\ac-repair-start-island-fl\" />
-    <Folder Include="service-areas\ac-repair-sun-center-fl\" />
-    <Folder Include="service-areas\ac-repair-sunny-isles-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-sunrise-fl\" />
-    <Folder Include="service-areas\ac-repair-sunshine-acres-fl\" />
-    <Folder Include="service-areas\ac-repair-surfside-fl\" />
-    <Folder Include="service-areas\ac-repair-sweetwater-fl\" />
-    <Folder Include="service-areas\ac-repair-tamarac-fl\" />
-    <Folder Include="service-areas\ac-repair-tamiami-fl\" />
-    <Folder Include="service-areas\ac-repair-tarpon-springs-fl\" />
-    <Folder Include="service-areas\ac-repair-temple-terrace-fl\" />
-    <Folder Include="service-areas\ac-repair-tequesta-fl\" />
-    <Folder Include="service-areas\ac-repair-the-hammocks-fl\" />
-    <Folder Include="service-areas\ac-repair-thonotosassa-fl\" />
-    <Folder Include="service-areas\ac-repair-university-park-fl\" />
-    <Folder Include="service-areas\ac-repair-virginia-gardens-fl\" />
-    <Folder Include="service-areas\ac-repair-washington-park-fl\" />
-    <Folder Include="service-areas\ac-repair-wellington-fl\" />
-    <Folder Include="service-areas\ac-repair-west-little-river-fl\" />
-    <Folder Include="service-areas\ac-repair-west-miami-fl\" />
-    <Folder Include="service-areas\ac-repair-west-palm-beach-fl\" />
-    <Folder Include="service-areas\ac-repair-west-park-fl\" />
-    <Folder Include="service-areas\ac-repair-westchester-fl\" />
-    <Folder Include="service-areas\ac-repair-westgate-fl\" />
-    <Folder Include="service-areas\ac-repair-weston-fl\" />
-    <Folder Include="service-areas\ac-repair-wilton-manors-fl\" />
-    <Folder Include="service-areas\ac-repair-wynwood-fl\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
